@@ -9,28 +9,30 @@
 </head>
 <body>
     <div class="main">
+        <p class="join">Join Github</p>
+        <h2>First, let's create your user account</h2>
         <form>
-            <p>Join Github</p>
-            <h2>First, let's create your user account</h2>
-
-            <label for="username">Username</label>
+            <label for="username" class="required">Username</label>
             <input type="text" name="username">
 
-            <label for="email">Email address</label>
+            <label for="email" class="required">Email address</label>
             <input type="email" name="email">
 
-            <label for="password">Password</label>
+            <label for="password" class="required">Password</label>
             <input type="password" name="password">
-            <p>Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter</p>
-            <a href="#">Learn More</a>
-
+            <p>Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter.</p>
+            <a href="#">Learn More.</a>
             <label for="email-pref">Email preferences</label>
-            <input type="checkbox" name="email-pref">
+            <div class="email-preference">    
+                <input id="checkbox" type="checkbox" name="email-pref">
+                <label for="email-pref" id="checkbox-label">Send me occasional product updates, announcements and offers</label>
+            </div>
 
             <button type="submit">Create account</button>
-
-            <p>By creating an account, you agree to the <a href="#">Terms of Service.</a>For more information about Github's privacy practices, see the <a href="#">Github Privacy Statement</a>. We'll occassionally send you account-related emails</p>
         </form>
+        <div class="terms">
+            <p>By creating an account, you agree to the <a href="#">Terms of Service.</a>For more information about Github's privacy practices, see the <a href="#">Github Privacy Statement</a>. We'll occassionally send you account-related emails.</p>
+        </div>
     </div>
 </body>
 </html>

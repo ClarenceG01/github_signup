@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    margin: 0 auto;
+    padding: 10px;
+    width: 500px;
+    background-color: white;
+}
+.main form{
+    padding: 10px 10px 0 10px;
+}
+.main 
+label{
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin: 3px 0;
+}
+.main input{
+    width: 100%;
+    padding: 8px;
+    background-color: #eef1f5;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.main h2{
+    margin: 10px;
+    text-align: center;
+}
+.join{
+    text-align: center;
+    margin-bottom: 0;
+    
+}
+.main a{
+    text-decoration: none;
+}
+.main button{
+    width: 100%;
+    padding: 10px;
+    background-color: #2db14c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 0;
+    font-size: 17px;
+    opacity: 0.4;
+}
+
+.main button :hover{
+    opacity: 0;
+}
+#checkbox{
+    width: fit-content;
+}
+#checkbox-label{
+    display: inline;
+    width: 100%;
+}
+form 
+p{
+    margin: 0;
+    font-size: 15px;
+}
+form 
+a{
+    margin: 0;
+    font-size: 15px;
+}
+.email-preference{
+    margin: 10px 0;
+}
+.email-preference
+label{
+    font-size: 15px;
+}
+.terms{
+    
+    padding: 0 0 10px 10px;
+}
+.terms
+p{
+    font-size: 15px ;
+}
+.required::after{
+    content: '*';
+    color: red;
+}
