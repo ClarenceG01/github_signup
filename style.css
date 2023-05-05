@@ -9,7 +9,7 @@
 .main{
     margin: 0 auto;
     padding: 10px;
-    width: 500px;
+    max-width: 630px;
     background-color: white;
 }
 .main form{
@@ -17,8 +17,8 @@
 }
 .main 
 label{
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 600;
     display: block;
     margin: 3px 0;
 }
@@ -68,19 +68,28 @@ label{
 form 
 p{
     margin: 0;
-    font-size: 15px;
+    font-size: 13px;
+    opacity: 0.8;
+    width: 599px;
+    overflow: hidden;
 }
 form 
 a{
     margin: 0;
-    font-size: 15px;
+    font-size: 13px;
+}
+#email-pref-title{
+    margin-top: 20px;
+    margin-bottom: 3px;
 }
 .email-preference{
-    margin: 10px 0;
+    margin: 0 0 10px 0;
 }
 .email-preference
 label{
+    font-weight: 500;
     font-size: 15px;
+    opacity: 0.8;
 }
 .terms{
     
@@ -88,7 +97,11 @@ label{
 }
 .terms
 p{
-    font-size: 15px ;
+    font-size: 13px ;
+    opacity: 0.8;
+}
+.terms a{
+    font-size: 13px;
 }
 .required::after{
     content: '*';
